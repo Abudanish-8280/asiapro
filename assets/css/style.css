@@ -955,6 +955,9 @@ div#accordionExample {
     height: 140px;
     object-fit: contain;
 }
+.partnersitem img:first-child {
+    margin-bottom: 40px;
+}
 .partner .accordion-button {
     color: var(--white);
     background-color: #202020;
