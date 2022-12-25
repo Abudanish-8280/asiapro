@@ -1728,6 +1728,13 @@ footer ul li, footer ul li a, footer p, footer a {
     footer ul.socialicon:before, footer ul.socialicon:after {
         width: 33%;
     }
+    button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+        height: 40px;
+        width: 40px;
+    }
+    button.slick-prev.slick-arrow:after, button.slick-next.slick-arrow:after {
+        font-size: 12px;
+    }
 }
 @media only screen and (max-width: 360px) {
     .about-content ul {
