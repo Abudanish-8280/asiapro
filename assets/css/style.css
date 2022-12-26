@@ -1250,6 +1250,9 @@ footer ul li, footer ul li a, footer p, footer a {
         top: 29.5px;
         right: 4px;
     }
+    .serviceslist>img {
+        height: 450px;
+    }
 }
 
 @media only screen and (max-width:1200px) {
