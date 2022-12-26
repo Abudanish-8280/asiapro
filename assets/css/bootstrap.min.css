@@ -681,12 +681,13 @@ progress {
     .container-sm {
         max-width: 540px
     }
+}
+@media (max-width:576px){
     .container-fluid{
         padding-right: var(--bs-gutter-x, .75rem);
         padding-left: var(--bs-gutter-x, .75rem);
     }
 }
-
 @media (min-width:768px) {
     .container,
     .container-md,
