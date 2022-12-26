@@ -478,7 +478,7 @@ header ul.menucntct>li:nth-child(1) a img, header ul.menucntct>li:nth-child(2) a
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 25px;
 }
 .serviceslist-info h3 {
@@ -1087,7 +1087,7 @@ div#accordionExample {
 .history .slick-active button {
     background: var(--primary) !important;
 }
-.history ul li {
+.history .grown-structure ul li {
     position: relative;
     padding-left: 20px;
     font-weight: 600;
@@ -1095,7 +1095,7 @@ div#accordionExample {
     margin: 10px 0;
 }
 
-.history ul li:before {
+.history .grown-structure ul li:before {
     position: absolute;
     content: '\f058';
     left: 0;
@@ -1679,6 +1679,16 @@ footer ul li, footer ul li a, footer p, footer a {
     }
     .ourteam {
         padding-bottom: 30px;
+    }
+    .grown-structure .row, .grown-structure .col-sm-6:first-child {
+        text-align: left;
+    }
+    .grown-structure .col-sm-6:first-child ul li {
+        padding: 0 0 0 20px;
+    }
+    .grown-structure .col-sm-6:first-child ul li:before {
+        left: 0;
+        right: auto;
     }
     .partner, .history {
         padding: 30px 0 45px;
