@@ -1053,32 +1053,8 @@ div#accordionExample {
     font-weight: 700;
     position:relative;
 }
-.grown-structure h3:before {
-    position: absolute;
-    content: '';
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 6px;
-    background:var(--secondary);
-    border-radius: 50%;
-}
 .history .btn-primary {
     margin-top: 18px;
-}
-.grown-structure .row:nth-child(1) h3:before {
-    right: -33px;
-    top: 3px;
-}
-.grown-structure .row:nth-child(2) h3:before {
-    left: -89px;
-    right: auto;
-}
-.grown-structure .row:nth-child(3) h3:before {
-    right: -91px;
-}
-.grown-structure .row:nth-child(4) h3:before {
-    right: auto;
-    left: -76px;
 }
 .history-slider {
     margin-top: 40px;
